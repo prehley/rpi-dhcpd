@@ -64,8 +64,8 @@ This image uses the following software components:
 Copyright & License
 ===================
 
-This project is copyright 2017 Robin Smidsrød <robin@smidsrod.no>.
+The prehley/rpi-dhcpd project is copyright 2018 Peter Rehley <peter_rehley@yahoo.com>
 
-It is licensed under the Apache 2.0 license.
+It is licensed under the MIT License
 
 See the file LICENSE for full legal details.
