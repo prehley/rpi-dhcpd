@@ -10,7 +10,8 @@ RUN apt-get update && \
       isc-dhcp-server man && \
     apt-get -y autoremove && \
     apt-get -y clean && \
-    rm -rf /var/lib/apt/lists/*
+    rm -rf /var/lib/apt/lists/* && \
+    useradd -ms /bin/bash dhcpd
 
 COPY util/dumb-init_1.2.1_arm32 /usr/bin/dumb-init
 COPY util/entrypoint.sh /entrypoint.sh
